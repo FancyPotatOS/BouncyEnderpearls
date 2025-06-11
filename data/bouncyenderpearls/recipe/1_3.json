@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:ender_pearl"
+    ],
+    [
+      "minecraft:slime_ball"
+    ],
+    [
+      "minecraft:slime_ball"
+    ],
+    [
+      "minecraft:slime_ball"
+    ],
+    [
+      "minecraft:rabbit_foot"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:snowball",
+    "components": {
+      "minecraft:custom_model_data": {
+        "strings": [
+          "bouncyenderpearls:bouncy_enderpearl"
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Bouncy Enderpearl",
+        "italic": false,
+        "color": "white"
+      },
+      "minecraft:lore": [
+        [{
+          "text": "Bounces: ",
+          "color": "gray"
+        },
+        {
+          "bold": true,
+          "text": "3",
+          "italic": false
+        }],
+        [{
+          "text": "Recoil: ",
+          "color": "gray"
+        },
+        {
+          "bold": true,
+          "text": "105%",
+          "italic": false
+        }]
+      ],
+      "enchantment_glint_override": false,
+      "enchantments": {
+        "bouncyenderpearls:projectile_spawned": 1
+      },
+      "tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments"
+        ]
+      },
+      "custom_data": {
+        "bouncyenderpearls": {
+          "is_bouncy": 1,
+          "bounce": {
+            "count": 3,
+            "mult": 105,
+            "div": 100
+          }
+        }
+      }
+    },
+    "count": 1
+  }
+}
