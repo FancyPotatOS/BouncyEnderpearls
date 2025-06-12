@@ -92,7 +92,7 @@ values = {
     "_MULT_": 95
 }
 for rabbit in range(0, 9):
-    for slime in range(0, 9-rabbit):
+    for slime in range(1, 9-rabbit):
         if rabbit == 0 and slime == 0: continue
         values["_RABBIT_"] = ",".join([rabbit_foot_str for _ in range(rabbit)])
         values["_SLIME_"] = ""
