@@ -2,7 +2,6 @@
 # Bouncy Enderpearls Datapack
 _Created by FancyPotatOS_
 
-
 Adds bouncy enderpearls, which can be crafted with a wide number of bounces!
 
 Resource pack needed to see the Bouncy Enderpearls, otherwise they look like snowballs.
