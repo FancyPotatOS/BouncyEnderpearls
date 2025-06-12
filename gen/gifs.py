@@ -17,14 +17,14 @@ starting_pos = (32, 68)
 delta_grid = (72, 72)
 size = (64, 64)
 
-slimeballs = [1, 2, 3, 4]
-rabbits_feet = [1, 2, 3, 4]
+slimeballs = 1
+rabbits_feet = 0
 
 ender_pearl_image = Image.open("ender_pearl.png").convert("RGBA")
 slimeball_image = Image.open("slimeball.png").convert("RGBA")
 rabbits_foot_image = Image.open("rabbits_foot.png").convert("RGBA")
 
-base_image_path = "base.png"
+base_image_path = "base_1s0f.png"
 
 if not os.path.exists("gifs"):
     os.mkdir("gifs")
@@ -42,14 +42,14 @@ for i in range(30):
     Image.Image.paste(base_image_instance, ender_pearl_image, position)
     
     # Place slimeballs
-    for _ in range(rng.choice(slimeballs)):
+    for _ in range(slimeballs):#rng.choice(slimeballs)):
         position = rng.choice(positions)
         positions.remove(position)
 
         Image.Image.paste(base_image_instance, slimeball_image, position)
     
     # Place rabbits feet
-    for _ in range(rng.choice(rabbits_feet)):
+    for _ in range(rabbits_feet):#rng.choice(rabbits_feet)):
         position = rng.choice(positions)
         positions.remove(position)
 
@@ -57,7 +57,7 @@ for i in range(30):
     
     frames.append(base_image_instance)
 
-make_gif(frames, f"gifs/{slimeballs if slimeballs is int else "n"}S{rabbits_feet if rabbits_feet is int else "n"}R.gif")
+make_gif(frames, f"gifs/{slimeballs}S{rabbits_feet}R.gif")
 
 
 
