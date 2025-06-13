@@ -17,3 +17,7 @@ Each bounce will conserve only 95% the Enderpearl's velocity. By including a Rab
 And any combination of the two!
 
 ![Crafting Any Bouncy Enderpearl Combination](img/gifs/nSnR.gif)
+
+Requires the [Iris datapack](https://github.com/Aeldrion/Iris/releases/tag/25w06a) (not to be confused with the Iris shaders mod!)
+
+
