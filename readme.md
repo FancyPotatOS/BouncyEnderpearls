@@ -21,3 +21,7 @@ And any combination of the two!
 Requires the [Iris datapack](https://github.com/Aeldrion/Iris/releases/tag/25w06a) (not to be confused with the Iris shaders mod!)
 
 
+## Known Bugs
+
+This datapack uses a hidden enchantment in the Bouncy Enderpearl to detect when the item has been thrown. Unfortunately, that means that it comes up in 'random enchanted book' loot tables and sometimes villager trading. This isn't avoidable for now!
+

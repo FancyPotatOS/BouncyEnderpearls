@@ -1,6 +1,6 @@
 {
   "description": "",
-  "supported_items": "minecraft:snowball",
+  "supported_items": "minecraft:air",
   "weight": 1,
   "max_level": 1,
   "min_cost": {

@@ -11,6 +11,7 @@ def replace_values(string: str, replacements: dict[str, str]):
 
 original = """{
   "type": "minecraft:crafting_shapeless",
+  "group": "bouncyenderpearls",
   "category": "misc",
   "ingredients": [
     [
@@ -84,7 +85,7 @@ rabbit_foot_str = """
       "minecraft:rabbit_foot"
     ]"""
 
-target_dir = "C:/Users/caleb/AppData/Roaming/.minecraft/saves/Creative - 1_21_5/datapacks/BouncyEnderpearls - 1.21.5/data/bouncyenderpearls/recipe/"
+target_dir = """%appdata%/../Roaming/ModrinthApp/profiles/Fabric 26.1.2/saves/Creative - 26_1_2/datapacks/BouncyEnderpearls/data/bouncyenderpearls/recipe/"""
 os.chdir(target_dir)
 
 values = {

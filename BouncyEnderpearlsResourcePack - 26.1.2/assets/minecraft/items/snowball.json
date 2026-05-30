@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/snowball"
+    },
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "bouncyenderpearls:bouncy_enderpearl",
+        "model": {
+          "type": "minecraft:model",
+          "model": "bouncyenderpearls:item/bouncy_enderpearl"
+        }
+      }
+    ]
+  }
+}
