@@ -4,7 +4,10 @@
             "path": "."
         },
         {
-            "path": "../../../../resourcepacks/BouncyEnderpearlsResourcePack - 26.1.2"
+            "path": "../../../../resourcepacks/BouncyEnderpearlsResourcePack - 26.3"
+        },
+        {
+            "path": "../Iris - 26.3"
         }
     ],
     "settings": {
